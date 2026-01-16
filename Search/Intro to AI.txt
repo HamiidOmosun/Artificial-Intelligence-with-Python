@@ -1,0 +1,16 @@
+Artifical Intelligence covers a wide varity of types and techquines. any time you see a computer do something that appers to be intelligent or rational in some way example; reconginzing someones face from a photo, being able to play a game better than people can, or understand human language.
+
+1. Search: giving the ai ability to search for solutions to a problem, e.g driving from point a to point b, or solving a maze puzzle.
+
+2. Knowledge: giving ai the ability to knoq information and be able to repersent that information and draw conlusions 
+
+3. Uncertainity: idea of what happens if the computer isnt sure about a fact and is only sure with a certain probablity. 
+
+4. Optimization: when the computer needs to optimze for a particular kind of goal
+
+5. Machine learning: giving data to the computer so the computer can learn from data or experience being able to peforme a text better and better over time based on grzter access to data. 
+
+6. Neural Network: looking at how computers draw inspiration from human Intelligence looking at the sturture of the human brain.
+
+7. language: challanges that come about when a computer trys to understand natural language.
+

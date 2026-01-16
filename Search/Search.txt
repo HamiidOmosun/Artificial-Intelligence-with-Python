@@ -1,0 +1,54 @@
+Search:
+Trying to figure out what to do when we have a situation our computer is in or an environment.
+
+these problems can come in different fomrats. example; classic 15 sliding puzzle, or a maze or a gps tracking system. 
+
+Terminology:
+1. Agent: entity that preceives its environment and acts upon that environment.
+
+2. State: a configuration of the agent and it's environment
+
+3. Initial State: the state in which the agent begins.
+
+4. Actions: choice that can be made in a state and will  be defined as a function.
+Action(s) returns the set og actions that can be executed in state S. 
+
+5. Transistion Model: a discription of a state results from perfomring any applicable action in any state
+This can be defined a function that takes 2 inputs
+Results(s, a) returns the state resulting from perfoming action a in state S
+
+6. State Space: the set of all states reachable from the Initial Space by any sequence of Actions
+
+7. Goal test: a way to determine whether a given state is a goal state.
+
+8. path cost: numerical cost associated with a given path.
+
+9. solutions: a sequence of actions that leads from the Initial state to a goal state
+
+10. Optimal solutions: a solution that has the lowest path cost ampng all the solutions.
+
+Data sturture:
+Node: this is a data sturture that keeps track of
+-a state 
+-a parent(node that generates this node)
+-an action (action applied to parent to get node)
+-a path cost(from Initial state to node)
+
+Revised Approach:
+- start with a frontiner that contains the Initial state
+- start with an empty explore set
+- Repaet:
+  - if frontiner empty, then no solution.
+  - Remove a node from the frontiner
+  - if node contains goal state return solution
+  - Add the node to the explored set
+  - Expand the node add the resulting node to the frontiner if they arent in the frontiner or the explored set
+
+
+Stack: this is a data sturture that allows us to remove and add a node it is a last in first out data types
+
+Depth-first Search(DFS): this alwways expands the deepest node in the frontiner
+
+Breadth-first Search(BFS): this always expands the shallowest node in the frontiner and in BFS we use a queue 
+
+Queue: this is a first in first out data type.
