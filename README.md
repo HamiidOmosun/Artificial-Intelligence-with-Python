@@ -56,3 +56,5 @@ AI lessons/
 ├── Machine learning/
 ├── Neural Networks/
 └── Language/
+# Artificial-Intelligence-with-Python
+This is a havard Artificial Intelligence course with python 
